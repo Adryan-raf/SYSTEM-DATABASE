@@ -1,5 +1,7 @@
 # Pull request — feature/esqueleto-interface → developer
 
+Base: `developer` (nao `main`). Fluxo: aprovacao nesta PR, depois merge em `developer`.
+
 Use este texto no GitHub se o `gh` ainda nao estiver autenticado.
 
 **Compare:** https://github.com/Adryan-raf/SYSTEM-DATABASE/compare/developer...feature/esqueleto-interface?expand=1
