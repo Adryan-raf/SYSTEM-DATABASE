@@ -1,3 +1,8 @@
+# UNIVERSIDADE CATÓLICA DE PERNAMBUCO
+<p align="center">
+   <img src="http://www1.unicap.br/icam/wp-content/uploads/2019/06/marca_nova.svg" />
+  </p>
+
 # WebDriver | Banco de Dados
 
 Este é o projeto final para a disciplina de Projeto de Banco de Dados, no qual desenvolvemos um banco de dados para um sistema CRUD utilizando o SGBD MySQL. O projeto abrange todo o ciclo de vida de um banco de dados, incluindo criação de diagramas, scripts,cmanipulação e documentação detalhada.
