@@ -100,7 +100,7 @@ Se a home mostrar conexao ok, o esqueleto esta no ponto atual do projeto.
 - A interface Flask e propositalmente minima: HTML simples, sem dashboard.
 - Credenciais ficam no `.env` (nao versionado). Codigo usa SQL parametrizado.
 - Nesta etapa so validamos conexao. CRUDs (usuarios, arquivos, ...) vem depois,
-  uma tela por vez, conforme `README_interface_minima_webdriver.md`.
+  uma tela por vez, conforme `docs/README_interface_minima_webdriver.md`.
 
 ## Problemas comuns
 

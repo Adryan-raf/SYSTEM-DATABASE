@@ -3,6 +3,8 @@
 Esqueleto da Parte 1: pagina inicial e teste de conexao com `webdriver_db`.
 Ainda nao ha CRUD de entidades.
 
+Guia completo do zero (MySQL + Flask): `docs/SETUP_DO_ZERO.md`.
+
 ## Pre-requisitos
 
 1. MySQL 8 local com o banco criado.
