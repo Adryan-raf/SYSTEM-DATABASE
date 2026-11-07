@@ -41,9 +41,7 @@ Os scripts SQL estão organizados no diretório `scripts/`. Destacamos alguns do
 * Autor: Luana Larissa
 * Autor: Adryan Rafael
 * Autor: Jonas Mendes
-* Disciplina: Banco de Dados
+* Autor: Lucas Vinicius
+* Disciplina: Projeto de Banco de Dados
 * Tema: Sistema de CRUD
 * Instituição: Universidade Católica de Pernambuco
-
-## Informações adicionais
-
