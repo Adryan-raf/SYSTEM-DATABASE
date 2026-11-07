@@ -15,10 +15,13 @@ Formato simples, em ordem cronologica inversa.
 - `.gitignore` para `.env`, `venv/` e cache Python.
 - Guia `docs/SETUP_DO_ZERO.md` para subir banco e interface sem experiencia previa.
 - Diretrizes da interface em `docs/README_interface_minima_webdriver.md`.
+- Home com botoes CRUD evidentes por entidade (usuarios, arquivos, compartilhamentos,
+  comentarios, suporte, historico) e rotas placeholder prontas para ligar ao SQL.
 
 ### Changed
 
 - Documentacao da interface e do setup movida para a pasta `docs/`.
+- Navegacao do cabecalho aponta para as rotas de listagem/consulta.
 
 ### Notes
 
