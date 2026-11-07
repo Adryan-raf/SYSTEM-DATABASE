@@ -4,21 +4,13 @@ Este é o projeto final para a disciplina de Projeto de Banco de Dados, no qual 
 
 ## Diagramas
 
-A documentação completa do projeto pode ser encontrada no arquivo []. O arquivo contém informações detalhadas sobre o projeto, incluindo:
+### Diagrama Conceitual do Banco de Dados
 
-- Descrição do projeto
-- Minimundo
-- Dicionário de dados
-- Modelo Conceitual
-- Modelo Relacional
-- Normalização
-- Scripts utilizados
-- Instruções para execução do projeto
+![Diagrama de Esquema](https://github.com/Adryan-raf/webdriver-database/blob/fix/diagrama/Diagramas/DiagramaConceitualBD.drawio.png)
 
-## Diagramas de Banco de Dados
+### Diagrama Lógico do Banco de Dados
 
-### Diagrama de Esquema do Banco de Dados
-![Diagrama de Esquema]()
+![Diagrama Logico](https://github.com/Adryan-raf/webdriver-database/blob/fix/diagrama/Diagramas/DiagramaLogicoBD.drawio.png)
 
 ## Scripts SQL
 
