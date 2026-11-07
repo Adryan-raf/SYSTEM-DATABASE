@@ -1,0 +1,20 @@
+# Ambiente virtual Python
+venv/
+.venv/
+
+# Credenciais locais (nunca versionar)
+.env
+
+# Cache e bytecode Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Arquivos do sistema e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Dependencias Node legadas (nao usadas pela interface Flask)
+node_modules/
