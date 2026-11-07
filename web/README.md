@@ -53,5 +53,5 @@ Abra:
 ## Limitacoes desta versao
 
 - Sem autenticacao de usuario da aplicacao.
-- Sem telas de usuarios, arquivos, compartilhamentos, etc.
-- Nao altera o banco; so consulta `SELECT 1`.
+- Botoes CRUD da home ja abrem rotas Flask, mas as telas ainda sao placeholder.
+- Nao altera o banco nas operacoes CRUD; so a home/`/saude` consultam `SELECT 1`.

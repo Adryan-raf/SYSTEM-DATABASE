@@ -9,6 +9,15 @@ from db import testar_conexao
 app = Flask(__name__)
 
 
+def pagina_placeholder(titulo, operacao):
+    # Renderiza tela temporaria ate a rota receber SQL real.
+    return render_template(
+        "em_breve.html",
+        titulo=titulo,
+        operacao=operacao,
+    )
+
+
 @app.route("/")
 def inicio():
     # Testa o MySQL para mostrar status textual na pagina inicial.
@@ -33,6 +42,103 @@ def saude():
         conexao_ok=ok,
         mensagem_conexao=mensagem,
     ), status
+
+
+# --- Usuarios (placeholders; ligar ao SQL depois) ---
+
+@app.route("/usuarios")
+def usuarios_listar():
+    return pagina_placeholder("Usuarios", "LISTAR")
+
+
+@app.route("/usuarios/cadastrar")
+def usuarios_cadastrar():
+    return pagina_placeholder("Usuarios", "CADASTRAR")
+
+
+@app.route("/usuarios/consultar")
+def usuarios_consultar():
+    return pagina_placeholder("Usuarios", "CONSULTAR")
+
+
+@app.route("/usuarios/atualizar")
+def usuarios_atualizar():
+    return pagina_placeholder("Usuarios", "ATUALIZAR")
+
+
+@app.route("/usuarios/excluir")
+def usuarios_excluir():
+    return pagina_placeholder("Usuarios", "EXCLUIR")
+
+
+# --- Arquivos ---
+
+@app.route("/arquivos")
+def arquivos_listar():
+    return pagina_placeholder("Arquivos", "LISTAR")
+
+
+@app.route("/arquivos/cadastrar")
+def arquivos_cadastrar():
+    return pagina_placeholder("Arquivos", "CADASTRAR")
+
+
+@app.route("/arquivos/consultar")
+def arquivos_consultar():
+    return pagina_placeholder("Arquivos", "CONSULTAR")
+
+
+@app.route("/arquivos/atualizar")
+def arquivos_atualizar():
+    return pagina_placeholder("Arquivos", "ATUALIZAR")
+
+
+@app.route("/arquivos/remover")
+def arquivos_remover():
+    return pagina_placeholder("Arquivos", "REMOVER")
+
+
+# --- Compartilhamentos ---
+
+@app.route("/compartilhamentos")
+def compartilhamentos_listar():
+    return pagina_placeholder("Compartilhamentos", "LISTAR")
+
+
+@app.route("/compartilhamentos/registrar")
+def compartilhamentos_registrar():
+    return pagina_placeholder("Compartilhamentos", "REGISTRAR")
+
+
+# --- Comentarios ---
+
+@app.route("/comentarios")
+def comentarios_listar():
+    return pagina_placeholder("Comentarios", "LISTAR")
+
+
+@app.route("/comentarios/registrar")
+def comentarios_registrar():
+    return pagina_placeholder("Comentarios", "REGISTRAR")
+
+
+# --- Suporte ---
+
+@app.route("/suporte")
+def suporte_listar():
+    return pagina_placeholder("Suporte", "LISTAR")
+
+
+@app.route("/suporte/criar")
+def suporte_criar():
+    return pagina_placeholder("Suporte", "CRIAR")
+
+
+# --- Historico (somente leitura) ---
+
+@app.route("/historico")
+def historico_consultar():
+    return pagina_placeholder("Historico", "CONSULTAR")
 
 
 # Permite executar com: python app.py (a partir da pasta web/).

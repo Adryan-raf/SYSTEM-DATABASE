@@ -12,12 +12,12 @@
         <nav>
             <a href="{{ url_for('inicio') }}">Inicio</a>
             <a href="{{ url_for('saude') }}">Saude do banco</a>
-            <span class="nav-placeholder">Usuarios</span>
-            <span class="nav-placeholder">Arquivos</span>
-            <span class="nav-placeholder">Compartilhamentos</span>
-            <span class="nav-placeholder">Comentarios</span>
-            <span class="nav-placeholder">Suporte</span>
-            <span class="nav-placeholder">Historico</span>
+            <a href="{{ url_for('usuarios_listar') }}">Usuarios</a>
+            <a href="{{ url_for('arquivos_listar') }}">Arquivos</a>
+            <a href="{{ url_for('compartilhamentos_listar') }}">Compartilhamentos</a>
+            <a href="{{ url_for('comentarios_listar') }}">Comentarios</a>
+            <a href="{{ url_for('suporte_listar') }}">Suporte</a>
+            <a href="{{ url_for('historico_consultar') }}">Historico</a>
         </nav>
     </header>
 
