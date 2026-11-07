@@ -2,10 +2,6 @@
 
 Este é o projeto final para a disciplina de Banco de Dados, no qual desenvolvemos um banco de dados para um sistema CRUD utilizando MySQL. O projeto abrange todo o ciclo de vida de um banco de dados, incluindo criação de diagramas, scripts para criação, população, manipulação e documentação detalhada.
 
-## Objetivo do Projeto
-
-O objetivo deste projeto é modelar e implementar um banco de dados completo para operações de um CRUD dinâmico. 
-
 ## Documentação Completa
 
 A documentação completa do projeto pode ser encontrada no arquivo []. O arquivo contém informações detalhadas sobre o projeto, incluindo:
