@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Webdriver - Saude{% endblock %}
+
+{% block content %}
+<section>
+    <h2>Saude do banco</h2>
+    <p>Rota de diagnostico: executa <code>SELECT 1</code> no MySQL.</p>
+    {% if conexao_ok %}
+    <p class="ok">{{ mensagem_conexao }}</p>
+    {% else %}
+    <p class="erro">Falha ao conectar: {{ mensagem_conexao }}</p>
+    {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Webdriver{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1><a href="{{ url_for('inicio') }}">Webdriver</a></h1>
+        <nav>
+            <a href="{{ url_for('inicio') }}">Inicio</a>
+            <a href="{{ url_for('saude') }}">Saude do banco</a>
+            <span class="nav-placeholder">Usuarios</span>
+            <span class="nav-placeholder">Arquivos</span>
+            <span class="nav-placeholder">Compartilhamentos</span>
+            <span class="nav-placeholder">Comentarios</span>
+            <span class="nav-placeholder">Suporte</span>
+            <span class="nav-placeholder">Historico</span>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>Interface minima academica. Sem autenticacao nesta versao.</p>
+    </footer>
+</body>
+</html>

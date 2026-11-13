@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Webdriver - Inicio{% endblock %}
+
+{% block content %}
+<section>
+    <h2>Pagina inicial</h2>
+    <p>
+        Sistema academico de gerenciamento e compartilhamento de arquivos.
+        Esta interface so demonstra o banco MySQL <code>webdriver_db</code>.
+    </p>
+</section>
+
+<section>
+    <h3>Status da conexao</h3>
+    {% if conexao_ok %}
+    <p class="ok">{{ mensagem_conexao }}</p>
+    {% else %}
+    <p class="erro">Falha ao conectar: {{ mensagem_conexao }}</p>
+    {% endif %}
+</section>
+
+<section>
+    <h3>Areas previstas</h3>
+    <ul>
+        <li>Usuarios — listar e cadastrar (proximo passo)</li>
+        <li>Arquivos — metadados, sem upload binario</li>
+        <li>Compartilhamentos — dono, destinatario e data</li>
+        <li>Comentarios — por arquivo</li>
+        <li>Suporte — solicitacao com administrador</li>
+        <li>Historico — consulta somente leitura</li>
+    </ul>
+    <p>
+        Os itens da navegacao ainda sem link serao ligados quando cada
+        tela for implementada.
+    </p>
+</section>
+{% endblock %}
